@@ -8,4 +8,9 @@ class ParamsController < ApplicationController
     thing = params["wildcard"].upcase
     render json: thing.as_json
   end
+
+  def bodyparams
+    thing = params["message"].upcase
+    render json: thing.as_json
+  end
 end

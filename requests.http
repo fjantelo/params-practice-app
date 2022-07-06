@@ -1,0 +1,7 @@
+### Post request
+POST http://localhost:3000/bodyparams
+Content-Type: application/json
+
+{
+  "message": "this should be in uppercase"
+}
