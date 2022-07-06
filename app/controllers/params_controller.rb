@@ -3,4 +3,9 @@ class ParamsController < ApplicationController
     thing = params["q"].upcase
     render json: thing.as_json
   end
+
+  def wildcard
+    thing = params["wildcard"].upcase
+    render json: thing.as_json
+  end
 end
